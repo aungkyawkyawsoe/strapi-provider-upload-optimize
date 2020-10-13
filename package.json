@@ -1,5 +1,9 @@
 {
   "name": "strapi-provider-upload-optimize",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aungkyawkyawsoe/strapi-provider-upload-optimize.git"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "./lib",
@@ -9,9 +13,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "strapi",
+    "upload",
+    "optimize"
+  ],
+  "author": "@_aungkyawkyaw",
+  "license": "MIT",
+  "strapi": {
+    "isProvider": true
+  },
   "dependencies": {
     "imagemin": "^7.0.1",
     "imagemin-jpegtran": "^7.0.0",
